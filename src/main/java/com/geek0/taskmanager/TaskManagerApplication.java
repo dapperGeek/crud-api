@@ -1,13 +1,13 @@
-package com.geek0.crudapi;
+package com.geek0.taskmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudApiApplication {
+public class TaskManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudApiApplication.class, args);
+		SpringApplication.run(TaskManagerApplication.class, args);
 	}
 
 }

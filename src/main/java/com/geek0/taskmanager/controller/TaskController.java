@@ -1,7 +1,7 @@
-package com.geek0.crudapi.controller;
+package com.geek0.taskmanager.controller;
 
-import com.geek0.crudapi.model.Task;
-import com.geek0.crudapi.service.TaskService;
+import com.geek0.taskmanager.model.Task;
+import com.geek0.taskmanager.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

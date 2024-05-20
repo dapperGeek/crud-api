@@ -1,13 +1,12 @@
-package com.geek0.crudapi.controller;
+package com.geek0.taskmanager.controller;
 
-import com.geek0.crudapi.model.User;
-import com.geek0.crudapi.service.UserService;
-import com.geek0.crudapi.util.JwtUtil;
+import com.geek0.taskmanager.model.User;
+import com.geek0.taskmanager.service.UserService;
+import com.geek0.taskmanager.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

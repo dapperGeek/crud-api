@@ -1,6 +1,6 @@
-package com.geek0.crudapi.service;
+package com.geek0.taskmanager.service;
 
-import com.geek0.crudapi.model.Task;
+import com.geek0.taskmanager.model.Task;
 
 import java.util.List;
 import java.util.Optional;

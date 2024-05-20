@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.geek0</groupId>
-	<artifactId>crud-api</artifactId>
+	<artifactId>task-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>crud-api</name>
 	<description>Demo project for Spring Boot</description>

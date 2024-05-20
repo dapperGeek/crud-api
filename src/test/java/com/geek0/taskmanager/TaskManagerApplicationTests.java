@@ -1,10 +1,10 @@
-package com.geek0.crudapi;
+package com.geek0.taskmanager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CrudApiApplicationTests {
+class TaskManagerApplicationTests {
 
 	@Test
 	void contextLoads() {

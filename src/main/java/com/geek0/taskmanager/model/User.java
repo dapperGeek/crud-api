@@ -1,4 +1,4 @@
-package com.geek0.crudapi.model;
+package com.geek0.taskmanager.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

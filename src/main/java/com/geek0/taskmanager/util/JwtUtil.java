@@ -1,4 +1,4 @@
-package com.geek0.crudapi.util;
+package com.geek0.taskmanager.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

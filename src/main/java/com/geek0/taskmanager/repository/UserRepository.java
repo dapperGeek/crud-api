@@ -1,6 +1,6 @@
-package com.geek0.crudapi.repository;
+package com.geek0.taskmanager.repository;
 
-import com.geek0.crudapi.model.User;
+import com.geek0.taskmanager.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

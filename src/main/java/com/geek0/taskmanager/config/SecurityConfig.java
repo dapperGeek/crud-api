@@ -1,7 +1,7 @@
-package com.geek0.crudapi.config;
+package com.geek0.taskmanager.config;
 
-import com.geek0.crudapi.service.UserService;
-import com.geek0.crudapi.util.JwtUtil;
+import com.geek0.taskmanager.service.UserService;
+import com.geek0.taskmanager.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

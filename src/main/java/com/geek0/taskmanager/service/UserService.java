@@ -1,7 +1,7 @@
-package com.geek0.crudapi.service;
+package com.geek0.taskmanager.service;
 
-import com.geek0.crudapi.model.User;
-import com.geek0.crudapi.repository.UserRepository;
+import com.geek0.taskmanager.model.User;
+import com.geek0.taskmanager.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
