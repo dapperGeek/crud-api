@@ -30,9 +30,14 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<?> authenticateUser(@RequestBody User user) {
-        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
-        UserDetails userDetails = (UserDetails) userService.findByUsername(user.getUsername());
-        String token = jwtUtil.generateToken(userDetails.getUsername());
-        return ResponseEntity.ok(token);
+        try {
+            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
+            User userDetails =  userService.findByUsername(user.getUsername());
+            String token = jwtUtil.generateToken(userDetails.getUsername());
+            return ResponseEntity.ok(token);
+        }
+        catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
     }
 }
